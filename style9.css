@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.FirstRow,
+.SecondRow,
+.ThirdRow,
+.FourthRow {
+    flex-wrap: nowrap;
+    width: 300px;
+    margin-left: 10px;
+}
+
+.image1,
+.image4,
+.image5,
+.image8 {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+.image2,
+.image3,
+.image6,
+.image7 {
+    width: 300px;
+    height: 400px;
+}
+
+@media screen and (max-width: 480px) {
+
+    .FirstRow,
+    .SecondRow,
+    .ThirdRow,
+    .FourthRow{
+        width: 600px;
+    }
+
+}
