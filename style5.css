@@ -1,0 +1,120 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family: verdana;
+    margin-left: 80px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-top: 27px;
+    justify-content: flex-start;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: normal;
+    color: black;
+    margin-top: 90px;
+}
+
+.icons>div {
+    background-color: white;
+    width: 130px;
+    height: 130px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+i {
+    position: absolute;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+@media screen and (min-width: 320px){ 
+    .i {
+        margin-top: 1px;
+        /* font-size: 20px; */
+
+    }
+    .icons>div {
+        width: 65px;
+        height: 65px;
+    }
+    p {
+        font-size: 8px;
+        margin-top: 15px;
+    } 
+   
+ } 
+ @media screen and (min-width: 425px){ 
+    .i {
+        margin-top: 1px;
+        /* font-size: 20px; */
+    }
+    .icons>div {
+        width: 69px;
+        height: 69px;
+    }
+    p {
+        font-size: 10px;
+        margin-top: 10px;
+    } 
+   
+ }
+ @media screen and (min-width: 480px){ 
+    .i {
+        margin-top: 1px;
+    }
+    .icons>div {
+        width: 70px;
+        height: 130px;
+    }
+    p {
+        font-size: 12px;
+        margin-top: 10px;
+    } 
+   
+ }
+ @media screen and (min-width: 600px){ 
+    .i {
+        margin-top: 1px;
+    }
+    .icons>div {
+        width: 80px;
+        height: 130px;
+    }
+    p {
+        font-size: 14px;
+        margin-top: 10px;
+    } 
+   
+ }
+ @media screen and (min-width: 1440px){ 
+    .i {
+        margin-top: 1px;
+    }
+    .icons>div {
+        width: 130px;
+        height: 130px;
+    }
+    p {
+        font-size: 16px;
+        margin-top: 10px;
+    } 
+   
+ }
